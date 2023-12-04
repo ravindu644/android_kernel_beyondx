@@ -1,18 +1,12 @@
-Linux kernel
-============
-
-This file was moved to Documentation/admin-guide/README.rst
-
-Please notice that there are several guides for kernel developers and users.
-These guides can be rendered in a number of formats, like HTML and PDF.
-
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.
-
-There are various text files in the Documentation/ subdirectory,
-several of them using the Restructured Text markup notation.
-See Documentation/00-INDEX for a list of what is contained in each file.
-
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+- Only works with S10 5G Korean Variant.
+- Rootable boot.img via Magisk (So, no root loss after reboots anymore).
+- Nuked All the Samsung Securities.
+- Enabled NTFS Write support and Overlayfs support.
+- Tested on One UI 4.1's "G977NKSU6HWD3" baseband. <hr>
+## Installation Method:
+01. Download the TAR file from my github releases.
+02. Install Samsung USB Drivers and ODIN.
+03. Put the device to the download mode and flash the downloaded tar via Odin's AP Block. <hr>
+## Notes: 
+01. If the device is bootlooping, you should perform a factory reset.
+02. Stock recovery will broke after installing this ramdisk patch, so use the TWRP kindly.
