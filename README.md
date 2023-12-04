@@ -2,6 +2,7 @@
 - Rootable boot.img via Magisk (So, no root loss after reboots anymore).
 - Nuked All the Samsung Securities.
 - Enabled NTFS Write support and Overlayfs support.
+- SELinux Enforcing/Permissive (Default is Enforcing)
 - Tested on One UI 4.1's "G977NKSU6HWD3" baseband. <hr>
 ## Installation Method:
 01. Download the TAR file from my github releases.
