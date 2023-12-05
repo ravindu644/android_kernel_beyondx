@@ -11,7 +11,7 @@
 03. Put the device to the download mode and flash the downloaded tar via Odin's AP Block. <hr>
 ## Notes: 
 01. If the device is bootlooping, you should perform a factory reset.
-02. Stock recovery will broke after installing this ramdisk patch, so use the TWRP kindly. <br>
+02. Stock recovery will broke after installing this ramdisk patch, so use the TWRP kindly. <hr>
 ## 🧑‍💻 For Developers - > How to build ?
 01. Put the necessary variables in build_kernel.sh + read this commit's [comment](https://github.com/ravindu644/Beyondx-KSU/commit/dd957a4f9b7570a6aa5fb50f5a3fe180944e268c#commitcomment-132161054) to fix allowlist in KSU.
 02. Type ``` ./build_kernel.sh ```.
@@ -22,4 +22,6 @@
 07. Also I edited the ramdisk build.prop.
 08. Open split_image and replace "cmdline, board, os patch level things, and place your compiled kernel"
 09. Repack and flash the boot.img + dt.img + dtbo.img using odin.
-10. Done.
+10. Done. <hr>
+## Credits and Thanks : [@ivanmeler](https://github.com/ivanmeler), [Kartik Gupta](https://github.com/ghazzor),[ @S1m3x](https://t.me/S1m3x), [Chaitanya Yeranagula](https://github.com/LMAO-armv8)
+### Join My Updates Channel : [@SamsungTweaks](https://t.me/SamsungTweaks)
